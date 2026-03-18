@@ -1,0 +1,349 @@
+{
+  "table_name": "Table 1: NaturalPlan Calendar Scheduling (Full Benchmark)",
+  "model": "openai/gpt-oss-120b",
+  "n_examples": 1000,
+  "prompting": "0-shot",
+  "temperature": 0,
+  "overall": {
+    "original_regex": {
+      "correct": 0,
+      "accuracy_pct": 0.0,
+      "ci95_pct": [
+        0,
+        0.4
+      ]
+    },
+    "llm_extraction": {
+      "correct": 919,
+      "accuracy_pct": 91.9,
+      "ci95_pct": [
+        90.0,
+        93.4
+      ]
+    },
+    "constraint_validated": {
+      "correct": 994,
+      "accuracy_pct": 99.4,
+      "ci95_pct": [
+        98.7,
+        99.7
+      ]
+    }
+  },
+  "error_analysis": {
+    "total_llm_incorrect": 81,
+    "valid_alternatives": 75,
+    "true_violations": 5,
+    "no_slot_extracted": 1,
+    "errors": 0,
+    "valid_alternative_pct": 92.6
+  },
+  "by_num_days": {
+    "1": {
+      "n": 600,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          0.6
+        ]
+      },
+      "llm_extraction": {
+        "correct": 557,
+        "accuracy": 92.8,
+        "ci95": [
+          90.5,
+          94.6
+        ]
+      },
+      "constraint_validated": {
+        "correct": 594,
+        "accuracy": 99.0,
+        "ci95": [
+          97.8,
+          99.5
+        ]
+      }
+    },
+    "2": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 87,
+        "accuracy": 87.0,
+        "ci95": [
+          79.0,
+          92.2
+        ]
+      },
+      "constraint_validated": {
+        "correct": 100,
+        "accuracy": 100.0,
+        "ci95": [
+          96.3,
+          100.0
+        ]
+      }
+    },
+    "3": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 93,
+        "accuracy": 93.0,
+        "ci95": [
+          86.3,
+          96.6
+        ]
+      },
+      "constraint_validated": {
+        "correct": 100,
+        "accuracy": 100.0,
+        "ci95": [
+          96.3,
+          100.0
+        ]
+      }
+    },
+    "4": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 87,
+        "accuracy": 87.0,
+        "ci95": [
+          79.0,
+          92.2
+        ]
+      },
+      "constraint_validated": {
+        "correct": 100,
+        "accuracy": 100.0,
+        "ci95": [
+          96.3,
+          100.0
+        ]
+      }
+    },
+    "5": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 95,
+        "accuracy": 95.0,
+        "ci95": [
+          88.8,
+          97.8
+        ]
+      },
+      "constraint_validated": {
+        "correct": 100,
+        "accuracy": 100.0,
+        "ci95": [
+          96.3,
+          100.0
+        ]
+      }
+    }
+  },
+  "by_num_people": {
+    "2": {
+      "n": 500,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          0.8
+        ]
+      },
+      "llm_extraction": {
+        "correct": 447,
+        "accuracy": 89.4,
+        "ci95": [
+          86.4,
+          91.8
+        ]
+      },
+      "constraint_validated": {
+        "correct": 500,
+        "accuracy": 100.0,
+        "ci95": [
+          99.2,
+          100.0
+        ]
+      }
+    },
+    "3": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 85,
+        "accuracy": 85.0,
+        "ci95": [
+          76.7,
+          90.7
+        ]
+      },
+      "constraint_validated": {
+        "correct": 99,
+        "accuracy": 99.0,
+        "ci95": [
+          94.6,
+          99.8
+        ]
+      }
+    },
+    "4": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 99,
+        "accuracy": 99.0,
+        "ci95": [
+          94.6,
+          99.8
+        ]
+      },
+      "constraint_validated": {
+        "correct": 100,
+        "accuracy": 100.0,
+        "ci95": [
+          96.3,
+          100.0
+        ]
+      }
+    },
+    "5": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 93,
+        "accuracy": 93.0,
+        "ci95": [
+          86.3,
+          96.6
+        ]
+      },
+      "constraint_validated": {
+        "correct": 98,
+        "accuracy": 98.0,
+        "ci95": [
+          93.0,
+          99.4
+        ]
+      }
+    },
+    "6": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 99,
+        "accuracy": 99.0,
+        "ci95": [
+          94.6,
+          99.8
+        ]
+      },
+      "constraint_validated": {
+        "correct": 100,
+        "accuracy": 100.0,
+        "ci95": [
+          96.3,
+          100.0
+        ]
+      }
+    },
+    "7": {
+      "n": 100,
+      "original_regex": {
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          3.7
+        ]
+      },
+      "llm_extraction": {
+        "correct": 96,
+        "accuracy": 96.0,
+        "ci95": [
+          90.2,
+          98.4
+        ]
+      },
+      "constraint_validated": {
+        "correct": 97,
+        "accuracy": 97.0,
+        "ci95": [
+          91.5,
+          99.0
+        ]
+      }
+    }
+  },
+  "reference_baselines": {
+    "gemini_1_5_pro_zheng_5shot": {
+      "accuracy_pct": 48.9,
+      "evaluator": "original_regex",
+      "n": 1000
+    }
+  }
+}

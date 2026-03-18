@@ -1,0 +1,103 @@
+{
+  "table_name": "Table 4: Cross-Model Robustness",
+  "description": "Effect direction consistency across model families and scales",
+  "models": [
+    {
+      "model": "openai/gpt-oss-120b",
+      "cfs": {
+        "model": "openai/gpt-oss-120b",
+        "n_scenarios": 50,
+        "parse_success": "150/150",
+        "parse_success_pct": 100.0,
+        "baseline_mean": 0.343,
+        "baseline_std": 0.395,
+        "adhd_prompted_mean": 0.546,
+        "adhd_prompted_std": 0.3508,
+        "cognischedule_mean": 0.754,
+        "cognischedule_std": 0.2612,
+        "delta_c_minus_a": 0.411,
+        "cohens_d": 1.1438,
+        "p_value": 0.0,
+        "bootstrap_ci95": [
+          0.314,
+          0.509
+        ],
+        "direction_holds": true,
+        "ordering_b_lt_ap_lt_cs": true
+      },
+      "sap": {
+        "model": "openai/gpt-oss-120b",
+        "n_scenarios": 50,
+        "parse_success": "150/150",
+        "parse_success_pct": 100.0,
+        "baseline_mean": 0.1826,
+        "baseline_std": 0.2197,
+        "adhd_prompted_mean": 0.4072,
+        "adhd_prompted_std": 0.2736,
+        "cognischedule_mean": 0.5765,
+        "cognischedule_std": 0.2209,
+        "delta_c_minus_a": 0.3939,
+        "cohens_d": 1.3743,
+        "p_value": 0.0,
+        "bootstrap_ci95": [
+          0.3132,
+          0.4697
+        ],
+        "direction_holds": true,
+        "ordering_b_lt_ap_lt_cs": true
+      }
+    },
+    {
+      "model": "llama-3.3-70b-versatile",
+      "cfs": {
+        "model": "llama-3.3-70b-versatile",
+        "n_scenarios": 50,
+        "parse_success": "150/150",
+        "parse_success_pct": 100.0,
+        "baseline_mean": 0.505,
+        "baseline_std": 0.314,
+        "adhd_prompted_mean": 0.677,
+        "adhd_prompted_std": 0.2532,
+        "cognischedule_mean": 0.715,
+        "cognischedule_std": 0.2211,
+        "delta_c_minus_a": 0.21,
+        "cohens_d": 0.7212,
+        "p_value": 2.2e-05,
+        "bootstrap_ci95": [
+          0.128,
+          0.291
+        ],
+        "direction_holds": true,
+        "ordering_b_lt_ap_lt_cs": true
+      },
+      "sap": {
+        "model": "llama-3.3-70b-versatile",
+        "n_scenarios": 50,
+        "parse_success": "150/150",
+        "parse_success_pct": 100.0,
+        "baseline_mean": 0.1707,
+        "baseline_std": 0.1402,
+        "adhd_prompted_mean": 0.2559,
+        "adhd_prompted_std": 0.1865,
+        "cognischedule_mean": 0.4445,
+        "cognischedule_std": 0.1811,
+        "delta_c_minus_a": 0.2738,
+        "cohens_d": 1.4356,
+        "p_value": 0.0,
+        "bootstrap_ci95": [
+          0.2223,
+          0.3285
+        ],
+        "direction_holds": true,
+        "ordering_b_lt_ap_lt_cs": true
+      }
+    }
+  ],
+  "summary": {
+    "n_models": 2,
+    "all_direction_holds_cfs": true,
+    "all_ordering_holds_cfs": true,
+    "all_direction_holds_sap": true,
+    "all_ordering_holds_sap": true
+  }
+}

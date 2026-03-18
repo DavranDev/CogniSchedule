@@ -1,0 +1,296 @@
+{
+  "config": {
+    "model": "llama-3.3-70b-versatile",
+    "temperature": 0,
+    "json_mode": true,
+    "max_attempts_per_trial": 3,
+    "bootstrap_samples": 10000,
+    "n_scenarios": 50,
+    "n_trials": 150
+  },
+  "cfs": {
+    "complete_case": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.505,
+          "std": 0.314,
+          "median": 0.6,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.677,
+          "std": 0.2532,
+          "median": 0.725,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.715,
+          "std": 0.2211,
+          "median": 0.7,
+          "min": 0.2,
+          "max": 1.0
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "statistic": 88.5,
+          "p_value": 2e-06,
+          "significant_005": true,
+          "mean_diff": 0.172,
+          "cohens_d_paired": 0.7667,
+          "bootstrap_ci95_mean_diff": [
+            0.112,
+            0.234
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 131.5,
+          "p_value": 2.2e-05,
+          "significant_005": true,
+          "mean_diff": 0.21,
+          "cohens_d_paired": 0.7212,
+          "bootstrap_ci95_mean_diff": [
+            0.128,
+            0.291
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 242.5,
+          "p_value": 0.154502,
+          "significant_005": false,
+          "mean_diff": 0.038,
+          "cohens_d_paired": 0.1517,
+          "bootstrap_ci95_mean_diff": [
+            -0.031,
+            0.108
+          ]
+        }
+      }
+    },
+    "itt_failures_zero": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.505,
+          "std": 0.314,
+          "median": 0.6,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.677,
+          "std": 0.2532,
+          "median": 0.725,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.715,
+          "std": 0.2211,
+          "median": 0.7,
+          "min": 0.2,
+          "max": 1.0
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "statistic": 88.5,
+          "p_value": 2e-06,
+          "significant_005": true,
+          "mean_diff": 0.172,
+          "cohens_d_paired": 0.7667,
+          "bootstrap_ci95_mean_diff": [
+            0.112,
+            0.234
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 131.5,
+          "p_value": 2.2e-05,
+          "significant_005": true,
+          "mean_diff": 0.21,
+          "cohens_d_paired": 0.7212,
+          "bootstrap_ci95_mean_diff": [
+            0.128,
+            0.291
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 242.5,
+          "p_value": 0.154502,
+          "significant_005": false,
+          "mean_diff": 0.038,
+          "cohens_d_paired": 0.1517,
+          "bootstrap_ci95_mean_diff": [
+            -0.031,
+            0.108
+          ]
+        }
+      }
+    }
+  },
+  "sap_p80": {
+    "complete_case": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.1707,
+          "std": 0.1402,
+          "median": 0.1256,
+          "min": 0.0148,
+          "max": 0.6444
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.2559,
+          "std": 0.1865,
+          "median": 0.2227,
+          "min": 0.0204,
+          "max": 0.6852
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.4445,
+          "std": 0.1811,
+          "median": 0.4368,
+          "min": 0.1232,
+          "max": 0.8314
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "statistic": 242.5,
+          "p_value": 7.5e-05,
+          "significant_005": true,
+          "mean_diff": 0.0851,
+          "cohens_d_paired": 0.5888,
+          "bootstrap_ci95_mean_diff": [
+            0.0468,
+            0.1258
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 7.0,
+          "p_value": 0.0,
+          "significant_005": true,
+          "mean_diff": 0.2738,
+          "cohens_d_paired": 1.4356,
+          "bootstrap_ci95_mean_diff": [
+            0.2223,
+            0.3285
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 109.0,
+          "p_value": 0.0,
+          "significant_005": true,
+          "mean_diff": 0.1887,
+          "cohens_d_paired": 0.8927,
+          "bootstrap_ci95_mean_diff": [
+            0.1324,
+            0.2488
+          ]
+        }
+      }
+    },
+    "itt_failures_zero": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.1707,
+          "std": 0.1402,
+          "median": 0.1256,
+          "min": 0.0148,
+          "max": 0.6444
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.2559,
+          "std": 0.1865,
+          "median": 0.2227,
+          "min": 0.0204,
+          "max": 0.6852
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.4445,
+          "std": 0.1811,
+          "median": 0.4368,
+          "min": 0.1232,
+          "max": 0.8314
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "statistic": 242.5,
+          "p_value": 7.5e-05,
+          "significant_005": true,
+          "mean_diff": 0.0851,
+          "cohens_d_paired": 0.5888,
+          "bootstrap_ci95_mean_diff": [
+            0.0468,
+            0.1258
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 7.0,
+          "p_value": 0.0,
+          "significant_005": true,
+          "mean_diff": 0.2738,
+          "cohens_d_paired": 1.4356,
+          "bootstrap_ci95_mean_diff": [
+            0.2223,
+            0.3285
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "statistic": 109.0,
+          "p_value": 0.0,
+          "significant_005": true,
+          "mean_diff": 0.1887,
+          "cohens_d_paired": 0.8927,
+          "bootstrap_ci95_mean_diff": [
+            0.1324,
+            0.2488
+          ]
+        }
+      }
+    }
+  },
+  "reliability": {
+    "success_rates": {
+      "baseline": "50/50",
+      "adhd_prompted": "50/50",
+      "cognischedule": "50/50"
+    },
+    "error_codes": {
+      "baseline": {},
+      "adhd_prompted": {},
+      "cognischedule": {}
+    },
+    "valid_block_rate": {
+      "baseline": 1.0,
+      "adhd_prompted": 1.0,
+      "cognischedule": 0.9883
+    }
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "student": {
+    "name": "Alex Rivera",
+    "adhd_subtype": "combined",
+    "chronotype": "intermediate",
+    "major": "Computer Science",
+    "year": 2
+  },
+  "schedule": [
+    {
+      "date": "2026-03-12",
+      "day": "thursday",
+      "blocks": [
+        {
+          "title": "Wake up + Morning Routine",
+          "start_time": "08:00",
+          "end_time": "08:30",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Shower, breakfast, meds"
+        },
+        {
+          "title": "CSCE 310 — Data Structures Lecture",
+          "start_time": "09:00",
+          "end_time": "10:15",
+          "cognitive_load": "high",
+          "task_type": "lecture",
+          "course": "CSCE310",
+          "is_fixed": true,
+          "notes": "Trees & graphs chapter"
+        },
+        {
+          "title": "Break + Walk",
+          "start_time": "10:15",
+          "end_time": "10:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "CSCE 310 Homework — Problem Set 4",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "CSCE310",
+          "is_fixed": false,
+          "notes": "While lecture is fresh"
+        },
+        {
+          "title": "Lunch",
+          "start_time": "12:00",
+          "end_time": "12:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "ENGL 210 — Technical Writing",
+          "start_time": "13:00",
+          "end_time": "14:15",
+          "cognitive_load": "medium",
+          "task_type": "lecture",
+          "course": "ENGL210",
+          "is_fixed": true,
+          "notes": null
+        },
+        {
+          "title": "Coffee + Short Recharge",
+          "start_time": "14:15",
+          "end_time": "14:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "ENGL 210 Reading — Chapter 5",
+          "start_time": "14:30",
+          "end_time": "15:00",
+          "cognitive_load": "medium",
+          "task_type": "study",
+          "course": "ENGL210",
+          "is_fixed": false,
+          "notes": "Low-demand task for afternoon trough"
+        },
+        {
+          "title": "Gym",
+          "start_time": "16:00",
+          "end_time": "17:00",
+          "cognitive_load": "low",
+          "task_type": "exercise",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Dinner",
+          "start_time": "18:00",
+          "end_time": "18:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "MATH 251 — Calculus Review",
+          "start_time": "19:00",
+          "end_time": "19:45",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "MATH251",
+          "is_fixed": false,
+          "notes": "Evening peak — tackle hardest subject"
+        },
+        {
+          "title": "Wind Down",
+          "start_time": "22:00",
+          "end_time": "22:30",
+          "cognitive_load": "low",
+          "task_type": "social",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "day": "friday",
+      "blocks": [
+        {
+          "title": "Morning Routine",
+          "start_time": "08:30",
+          "end_time": "09:00",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "MATH 251 — Calculus III Lecture",
+          "start_time": "09:30",
+          "end_time": "10:45",
+          "cognitive_load": "high",
+          "task_type": "lecture",
+          "course": "MATH251",
+          "is_fixed": true,
+          "notes": "Integration by parts"
+        },
+        {
+          "title": "Break",
+          "start_time": "10:45",
+          "end_time": "11:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "MATH 251 — Practice Problems (Ch. 7)",
+          "start_time": "11:00",
+          "end_time": "11:45",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "MATH251",
+          "is_fixed": false,
+          "notes": "10 problems max — stop at 45 min"
+        },
+        {
+          "title": "Lunch + Social",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "cognitive_load": "low",
+          "task_type": "social",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Lunch with roommates — protected"
+        },
+        {
+          "title": "CSCE 310 — Lab Section",
+          "start_time": "14:00",
+          "end_time": "15:50",
+          "cognitive_load": "high",
+          "task_type": "lab",
+          "course": "CSCE310",
+          "is_fixed": true,
+          "notes": "Linked list implementation due"
+        },
+        {
+          "title": "Decompress Walk",
+          "start_time": "16:00",
+          "end_time": "16:20",
+          "cognitive_load": "low",
+          "task_type": "exercise",
+          "course": null,
+          "is_fixed": false,
+          "notes": "After long lab — mandatory decompression"
+        },
+        {
+          "title": "Admin — Email & Canvas Check",
+          "start_time": "16:30",
+          "end_time": "16:50",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Triage only — no deep work on Friday afternoons"
+        },
+        {
+          "title": "Dinner + Free Time",
+          "start_time": "18:00",
+          "end_time": "20:00",
+          "cognitive_load": "low",
+          "task_type": "social",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Protected free time"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "day": "saturday",
+      "blocks": [
+        {
+          "title": "Sleep In + Slow Morning",
+          "start_time": "09:00",
+          "end_time": "10:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Recovery day — no alarms"
+        },
+        {
+          "title": "ENGL 210 — Draft Essay Outline",
+          "start_time": "10:30",
+          "end_time": "11:15",
+          "cognitive_load": "medium",
+          "task_type": "creative",
+          "course": "ENGL210",
+          "is_fixed": false,
+          "is_decomposed": true,
+          "notes": "Part 1 of 2 — outline only, don't write yet"
+        },
+        {
+          "title": "Break",
+          "start_time": "11:15",
+          "end_time": "11:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "ENGL 210 — Write Introduction",
+          "start_time": "11:30",
+          "end_time": "12:15",
+          "cognitive_load": "medium",
+          "task_type": "creative",
+          "course": "ENGL210",
+          "is_fixed": false,
+          "is_decomposed": true,
+          "notes": "Part 2 of 2"
+        },
+        {
+          "title": "Lunch",
+          "start_time": "12:30",
+          "end_time": "13:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "CSCE 310 — Homework Problem Set 4 (continued)",
+          "start_time": "14:00",
+          "end_time": "14:45",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "CSCE310",
+          "is_fixed": false,
+          "notes": "Finish remaining 3 problems"
+        },
+        {
+          "title": "Break + Snack",
+          "start_time": "14:45",
+          "end_time": "15:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Free Time — Gaming / Hobbies",
+          "start_time": "15:00",
+          "end_time": "17:00",
+          "cognitive_load": "low",
+          "task_type": "social",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Earned — no guilt"
+        },
+        {
+          "title": "Gym",
+          "start_time": "17:30",
+          "end_time": "18:30",
+          "cognitive_load": "low",
+          "task_type": "exercise",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Dinner + Social",
+          "start_time": "19:00",
+          "end_time": "21:00",
+          "cognitive_load": "low",
+          "task_type": "social",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "day": "sunday",
+      "blocks": [
+        {
+          "title": "Morning Routine",
+          "start_time": "09:00",
+          "end_time": "09:30",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Weekly Planning — Review Upcoming Deadlines",
+          "start_time": "09:30",
+          "end_time": "10:00",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Set up the week — 30 min max"
+        },
+        {
+          "title": "MATH 251 — Quiz Prep (Ch. 7)",
+          "start_time": "10:15",
+          "end_time": "11:00",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "MATH251",
+          "is_fixed": false,
+          "notes": "Quiz on Tuesday — start early"
+        },
+        {
+          "title": "Break",
+          "start_time": "11:00",
+          "end_time": "11:15",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "MATH 251 — Practice Quiz (timed)",
+          "start_time": "11:15",
+          "end_time": "12:00",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "MATH251",
+          "is_fixed": false,
+          "notes": "Simulate exam conditions"
+        },
+        {
+          "title": "Lunch",
+          "start_time": "12:00",
+          "end_time": "12:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "ENGL 210 — Finish Essay Body Paragraphs",
+          "start_time": "13:00",
+          "end_time": "13:45",
+          "cognitive_load": "medium",
+          "task_type": "creative",
+          "course": "ENGL210",
+          "is_fixed": false,
+          "is_decomposed": true,
+          "notes": "Due Wednesday — on track"
+        },
+        {
+          "title": "Break + Walk",
+          "start_time": "13:45",
+          "end_time": "14:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "CSCE 310 — Review Lab Submission",
+          "start_time": "14:00",
+          "end_time": "14:30",
+          "cognitive_load": "medium",
+          "task_type": "study",
+          "course": "CSCE310",
+          "is_fixed": false,
+          "notes": "Double-check before submission window closes"
+        },
+        {
+          "title": "Free Time",
+          "start_time": "15:00",
+          "end_time": "17:00",
+          "cognitive_load": "low",
+          "task_type": "social",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Dinner",
+          "start_time": "18:00",
+          "end_time": "18:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Light Reading — ENGL or leisure",
+          "start_time": "20:00",
+          "end_time": "20:30",
+          "cognitive_load": "low",
+          "task_type": "study",
+          "course": "ENGL210",
+          "is_fixed": false,
+          "notes": "Low pressure — wind down"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "day": "monday",
+      "blocks": [
+        {
+          "title": "Morning Routine + Meds",
+          "start_time": "08:00",
+          "end_time": "08:30",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": null,
+          "is_fixed": false,
+          "notes": "Medication window starts — front-load demanding work"
+        },
+        {
+          "title": "CSCE 310 — Problem Set 4 Final Review",
+          "start_time": "08:45",
+          "end_time": "09:30",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "CSCE310",
+          "is_fixed": false,
+          "notes": "Due today at 11:59pm — final pass"
+        },
+        {
+          "title": "MATH 251 — Lecture",
+          "start_time": "09:30",
+          "end_time": "10:45",
+          "cognitive_load": "high",
+          "task_type": "lecture",
+          "course": "MATH251",
+          "is_fixed": true,
+          "notes": null
+        },
+        {
+          "title": "Break",
+          "start_time": "10:45",
+          "end_time": "11:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Submit CSCE 310 Homework",
+          "start_time": "11:00",
+          "end_time": "11:15",
+          "cognitive_load": "low",
+          "task_type": "admin",
+          "course": "CSCE310",
+          "is_fixed": false,
+          "notes": "Upload + confirm submission"
+        },
+        {
+          "title": "Lunch",
+          "start_time": "12:00",
+          "end_time": "12:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "ENGL 210 — Essay Conclusion + Proofread",
+          "start_time": "13:00",
+          "end_time": "13:45",
+          "cognitive_load": "medium",
+          "task_type": "creative",
+          "course": "ENGL210",
+          "is_fixed": false,
+          "is_decomposed": true,
+          "notes": "Due Wednesday — nearly done"
+        },
+        {
+          "title": "Break",
+          "start_time": "13:45",
+          "end_time": "14:00",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "CSCE 310 — Start next assignment (preview)",
+          "start_time": "14:00",
+          "end_time": "14:30",
+          "cognitive_load": "medium",
+          "task_type": "study",
+          "course": "CSCE310",
+          "is_fixed": false,
+          "notes": "Just read the prompt — no coding yet"
+        },
+        {
+          "title": "Gym",
+          "start_time": "16:00",
+          "end_time": "17:00",
+          "cognitive_load": "low",
+          "task_type": "exercise",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "Dinner",
+          "start_time": "18:00",
+          "end_time": "18:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        },
+        {
+          "title": "MATH 251 — Tuesday Quiz Final Prep",
+          "start_time": "19:00",
+          "end_time": "19:45",
+          "cognitive_load": "high",
+          "task_type": "study",
+          "course": "MATH251",
+          "is_fixed": false,
+          "notes": "Last focused session before quiz tomorrow"
+        },
+        {
+          "title": "Wind Down — no screens",
+          "start_time": "22:00",
+          "end_time": "22:30",
+          "cognitive_load": "low",
+          "task_type": "break",
+          "course": null,
+          "is_fixed": false,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

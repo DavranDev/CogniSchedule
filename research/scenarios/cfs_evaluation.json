@@ -1,0 +1,660 @@
+[
+  {
+    "scenario_id": "P1_inattentive_nightowl__light_week",
+    "scenario_type": "light_week",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.45,
+    "violation_count": 6,
+    "total_penalty": 0.55,
+    "violations_by_rule": {
+      "trough_high_load": 3,
+      "missing_buffer": 2,
+      "consecutive_high_load": 1
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__light_week",
+    "scenario_type": "light_week",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.2,
+    "violation_count": 9,
+    "total_penalty": 0.8,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 3,
+      "missing_buffer": 4
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__light_week",
+    "scenario_type": "light_week",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.4,
+    "violation_count": 6,
+    "total_penalty": 0.6,
+    "violations_by_rule": {
+      "consecutive_high_load": 1,
+      "trough_high_load": 3,
+      "missing_buffer": 1,
+      "monolithic_task": 1
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__light_week",
+    "scenario_type": "light_week",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.7,
+    "violation_count": 3,
+    "total_penalty": 0.3,
+    "violations_by_rule": {
+      "missing_buffer": 1,
+      "consecutive_high_load": 1,
+      "trough_high_load": 1
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__light_week",
+    "scenario_type": "light_week",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.45,
+    "violation_count": 8,
+    "total_penalty": 0.55,
+    "violations_by_rule": {
+      "trough_high_load": 3,
+      "missing_buffer": 5
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__heavy_week",
+    "scenario_type": "heavy_week",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.0,
+    "violation_count": 15,
+    "total_penalty": 1.65,
+    "violations_by_rule": {
+      "trough_high_load": 5,
+      "monolithic_task": 5,
+      "consecutive_high_load": 4,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__heavy_week",
+    "scenario_type": "heavy_week",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.0,
+    "violation_count": 16,
+    "total_penalty": 1.8,
+    "violations_by_rule": {
+      "consecutive_high_load": 6,
+      "trough_high_load": 6,
+      "missing_buffer": 2,
+      "monolithic_task": 2
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__heavy_week",
+    "scenario_type": "heavy_week",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.05,
+    "violation_count": 8,
+    "total_penalty": 0.95,
+    "violations_by_rule": {
+      "trough_high_load": 5,
+      "consecutive_high_load": 3
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__heavy_week",
+    "scenario_type": "heavy_week",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.0,
+    "violation_count": 9,
+    "total_penalty": 1.0,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 5,
+      "monolithic_task": 2
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__heavy_week",
+    "scenario_type": "heavy_week",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 13,
+    "total_penalty": 1.5,
+    "violations_by_rule": {
+      "consecutive_high_load": 5,
+      "trough_high_load": 7,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__exam_crunch",
+    "scenario_type": "exam_crunch",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.0,
+    "violation_count": 13,
+    "total_penalty": 1.35,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 4,
+      "missing_buffer": 1,
+      "monolithic_task": 6
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__exam_crunch",
+    "scenario_type": "exam_crunch",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.3,
+    "violation_count": 6,
+    "total_penalty": 0.7,
+    "violations_by_rule": {
+      "trough_high_load": 4,
+      "consecutive_high_load": 2
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__exam_crunch",
+    "scenario_type": "exam_crunch",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.0,
+    "violation_count": 14,
+    "total_penalty": 1.25,
+    "violations_by_rule": {
+      "trough_high_load": 7,
+      "missing_buffer": 4,
+      "monolithic_task": 2,
+      "consecutive_high_load": 1
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__exam_crunch",
+    "scenario_type": "exam_crunch",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.55,
+    "violation_count": 4,
+    "total_penalty": 0.45,
+    "violations_by_rule": {
+      "consecutive_high_load": 1,
+      "trough_high_load": 3
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__exam_crunch",
+    "scenario_type": "exam_crunch",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 10,
+    "total_penalty": 1.0,
+    "violations_by_rule": {
+      "trough_high_load": 5,
+      "missing_buffer": 2,
+      "monolithic_task": 1,
+      "consecutive_high_load": 2
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__post_deadline_recovery",
+    "scenario_type": "post_deadline_recovery",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.3,
+    "violation_count": 6,
+    "total_penalty": 0.7,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 3,
+      "monolithic_task": 1
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__post_deadline_recovery",
+    "scenario_type": "post_deadline_recovery",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.3,
+    "violation_count": 9,
+    "total_penalty": 0.7,
+    "violations_by_rule": {
+      "consecutive_high_load": 1,
+      "trough_high_load": 3,
+      "missing_buffer": 5
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__post_deadline_recovery",
+    "scenario_type": "post_deadline_recovery",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.4,
+    "violation_count": 6,
+    "total_penalty": 0.6,
+    "violations_by_rule": {
+      "trough_high_load": 5,
+      "monolithic_task": 1
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__post_deadline_recovery",
+    "scenario_type": "post_deadline_recovery",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.55,
+    "violation_count": 6,
+    "total_penalty": 0.45,
+    "violations_by_rule": {
+      "trough_high_load": 3,
+      "missing_buffer": 3
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__post_deadline_recovery",
+    "scenario_type": "post_deadline_recovery",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 15,
+    "total_penalty": 1.55,
+    "violations_by_rule": {
+      "consecutive_high_load": 4,
+      "trough_high_load": 8,
+      "missing_buffer": 3
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__conflicting_priorities",
+    "scenario_type": "conflicting_priorities",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.0,
+    "violation_count": 11,
+    "total_penalty": 1.15,
+    "violations_by_rule": {
+      "trough_high_load": 5,
+      "monolithic_task": 5,
+      "consecutive_high_load": 1
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__conflicting_priorities",
+    "scenario_type": "conflicting_priorities",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.1,
+    "violation_count": 8,
+    "total_penalty": 0.9,
+    "violations_by_rule": {
+      "monolithic_task": 4,
+      "consecutive_high_load": 2,
+      "trough_high_load": 2
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__conflicting_priorities",
+    "scenario_type": "conflicting_priorities",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.0,
+    "violation_count": 13,
+    "total_penalty": 1.3,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 7,
+      "monolithic_task": 2,
+      "missing_buffer": 2
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__conflicting_priorities",
+    "scenario_type": "conflicting_priorities",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.3,
+    "violation_count": 7,
+    "total_penalty": 0.7,
+    "violations_by_rule": {
+      "monolithic_task": 3,
+      "consecutive_high_load": 1,
+      "trough_high_load": 2,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__conflicting_priorities",
+    "scenario_type": "conflicting_priorities",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 14,
+    "total_penalty": 1.3,
+    "violations_by_rule": {
+      "consecutive_high_load": 1,
+      "trough_high_load": 5,
+      "monolithic_task": 5,
+      "missing_buffer": 3
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__fragmented_schedule",
+    "scenario_type": "fragmented_schedule",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.05,
+    "violation_count": 8,
+    "total_penalty": 0.95,
+    "violations_by_rule": {
+      "consecutive_high_load": 3,
+      "trough_high_load": 5
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__fragmented_schedule",
+    "scenario_type": "fragmented_schedule",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.1,
+    "violation_count": 8,
+    "total_penalty": 0.9,
+    "violations_by_rule": {
+      "trough_high_load": 6,
+      "consecutive_high_load": 2
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__fragmented_schedule",
+    "scenario_type": "fragmented_schedule",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.1,
+    "violation_count": 10,
+    "total_penalty": 0.9,
+    "violations_by_rule": {
+      "missing_buffer": 5,
+      "trough_high_load": 2,
+      "consecutive_high_load": 3
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__fragmented_schedule",
+    "scenario_type": "fragmented_schedule",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.25,
+    "violation_count": 6,
+    "total_penalty": 0.75,
+    "violations_by_rule": {
+      "consecutive_high_load": 3,
+      "trough_high_load": 3
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__fragmented_schedule",
+    "scenario_type": "fragmented_schedule",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 12,
+    "total_penalty": 1.15,
+    "violations_by_rule": {
+      "consecutive_high_load": 3,
+      "trough_high_load": 5,
+      "missing_buffer": 4
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__back_to_back_classes",
+    "scenario_type": "back_to_back_classes",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.0,
+    "violation_count": 17,
+    "total_penalty": 1.3,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 5,
+      "missing_buffer": 10
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__back_to_back_classes",
+    "scenario_type": "back_to_back_classes",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.1,
+    "violation_count": 11,
+    "total_penalty": 0.9,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 2,
+      "missing_buffer": 6,
+      "monolithic_task": 1
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__back_to_back_classes",
+    "scenario_type": "back_to_back_classes",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.0,
+    "violation_count": 15,
+    "total_penalty": 1.35,
+    "violations_by_rule": {
+      "consecutive_high_load": 3,
+      "trough_high_load": 6,
+      "missing_buffer": 6
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__back_to_back_classes",
+    "scenario_type": "back_to_back_classes",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.3,
+    "violation_count": 9,
+    "total_penalty": 0.7,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 1,
+      "missing_buffer": 6
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__back_to_back_classes",
+    "scenario_type": "back_to_back_classes",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.35,
+    "violation_count": 10,
+    "total_penalty": 0.65,
+    "violations_by_rule": {
+      "trough_high_load": 3,
+      "missing_buffer": 7
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__midterm_week",
+    "scenario_type": "midterm_week",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.0,
+    "violation_count": 11,
+    "total_penalty": 1.15,
+    "violations_by_rule": {
+      "trough_high_load": 4,
+      "monolithic_task": 6,
+      "consecutive_high_load": 1
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__midterm_week",
+    "scenario_type": "midterm_week",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.15,
+    "violation_count": 8,
+    "total_penalty": 0.85,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 4,
+      "monolithic_task": 1,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__midterm_week",
+    "scenario_type": "midterm_week",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.0,
+    "violation_count": 11,
+    "total_penalty": 1.0,
+    "violations_by_rule": {
+      "trough_high_load": 5,
+      "missing_buffer": 4,
+      "consecutive_high_load": 2
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__midterm_week",
+    "scenario_type": "midterm_week",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.4,
+    "violation_count": 5,
+    "total_penalty": 0.6,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 3
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__midterm_week",
+    "scenario_type": "midterm_week",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 12,
+    "total_penalty": 1.25,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 6,
+      "monolithic_task": 3,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__group_project_deadline",
+    "scenario_type": "group_project_deadline",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.25,
+    "violation_count": 7,
+    "total_penalty": 0.75,
+    "violations_by_rule": {
+      "trough_high_load": 3,
+      "monolithic_task": 3,
+      "consecutive_high_load": 1
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__group_project_deadline",
+    "scenario_type": "group_project_deadline",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.0,
+    "violation_count": 15,
+    "total_penalty": 1.5,
+    "violations_by_rule": {
+      "consecutive_high_load": 4,
+      "trough_high_load": 7,
+      "missing_buffer": 4
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__group_project_deadline",
+    "scenario_type": "group_project_deadline",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.0,
+    "violation_count": 13,
+    "total_penalty": 1.4,
+    "violations_by_rule": {
+      "trough_high_load": 7,
+      "monolithic_task": 2,
+      "consecutive_high_load": 3,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__group_project_deadline",
+    "scenario_type": "group_project_deadline",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.1,
+    "violation_count": 9,
+    "total_penalty": 0.9,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 3,
+      "missing_buffer": 2,
+      "monolithic_task": 2
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__group_project_deadline",
+    "scenario_type": "group_project_deadline",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 10,
+    "total_penalty": 1.05,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 5,
+      "monolithic_task": 2,
+      "missing_buffer": 1
+    }
+  },
+  {
+    "scenario_id": "P1_inattentive_nightowl__procrastination_recovery",
+    "scenario_type": "procrastination_recovery",
+    "profile_id": "P1_inattentive_nightowl",
+    "cfs_score": 0.0,
+    "violation_count": 12,
+    "total_penalty": 1.3,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 3,
+      "monolithic_task": 7
+    }
+  },
+  {
+    "scenario_id": "P2_hyperactive_morning__procrastination_recovery",
+    "scenario_type": "procrastination_recovery",
+    "profile_id": "P2_hyperactive_morning",
+    "cfs_score": 0.0,
+    "violation_count": 12,
+    "total_penalty": 1.35,
+    "violations_by_rule": {
+      "consecutive_high_load": 4,
+      "trough_high_load": 3,
+      "missing_buffer": 1,
+      "monolithic_task": 4
+    }
+  },
+  {
+    "scenario_id": "P3_combined_anxious__procrastination_recovery",
+    "scenario_type": "procrastination_recovery",
+    "profile_id": "P3_combined_anxious",
+    "cfs_score": 0.0,
+    "violation_count": 18,
+    "total_penalty": 1.65,
+    "violations_by_rule": {
+      "trough_high_load": 6,
+      "monolithic_task": 7,
+      "consecutive_high_load": 1,
+      "missing_buffer": 4
+    }
+  },
+  {
+    "scenario_id": "P4_inattentive_medicated__procrastination_recovery",
+    "scenario_type": "procrastination_recovery",
+    "profile_id": "P4_inattentive_medicated",
+    "cfs_score": 0.15,
+    "violation_count": 9,
+    "total_penalty": 0.85,
+    "violations_by_rule": {
+      "consecutive_high_load": 1,
+      "trough_high_load": 3,
+      "missing_buffer": 2,
+      "monolithic_task": 3
+    }
+  },
+  {
+    "scenario_id": "P5_combined_time_blind__procrastination_recovery",
+    "scenario_type": "procrastination_recovery",
+    "profile_id": "P5_combined_time_blind",
+    "cfs_score": 0.0,
+    "violation_count": 15,
+    "total_penalty": 1.55,
+    "violations_by_rule": {
+      "consecutive_high_load": 2,
+      "trough_high_load": 7,
+      "monolithic_task": 5,
+      "missing_buffer": 1
+    }
+  }
+]

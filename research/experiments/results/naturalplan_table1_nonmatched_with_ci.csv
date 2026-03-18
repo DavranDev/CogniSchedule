@@ -1,0 +1,5 @@
+comparison_type,model,multi_day_accuracy_pct,multi_day_n,multi_day_95ci_pct,multi_people_accuracy_pct,multi_people_n,multi_people_95ci_pct,overall_accuracy_pct,overall_n,overall_95ci_pct,note
+non_matched,gemini-2.0-flash,61.0,100,"[51.2, 70.0]",45.0,100,"[35.6, 54.8]",53.0,200,"[46.1, 59.8]","Subset differs from NaturalPlan full 1,000-test setup; custom LLM-assisted extraction used"
+non_matched,gpt-oss-120b,87.0,100,"[79.0, 92.2]",97.0,100,"[91.5, 99.0]",92.0,200,"[87.4, 95.0]","Subset differs from NaturalPlan full 1,000-test setup; custom LLM-assisted extraction used"
+non_matched,gpt-oss-20b,76.0,100,"[66.8, 83.3]",81.0,100,"[72.2, 87.5]",78.5,200,"[72.3, 83.6]","Subset differs from NaturalPlan full 1,000-test setup; custom LLM-assisted extraction used"
+non_matched,o4-mini,79.0,100,"[70.0, 85.8]",96.0,100,"[90.2, 98.4]",87.5,200,"[82.2, 91.4]","Subset differs from NaturalPlan full 1,000-test setup; custom LLM-assisted extraction used"

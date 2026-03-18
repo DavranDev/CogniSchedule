@@ -1,0 +1,169 @@
+{
+  "config": {
+    "model": "openai/gpt-oss-120b",
+    "temperature": 0,
+    "json_mode": {
+      "response_format": {
+        "type": "json_object"
+      }
+    },
+    "retry_on": [
+      "api_error",
+      "malformed_json",
+      "missing_key",
+      "too_few_blocks",
+      "refusal"
+    ],
+    "max_attempts_per_trial": 3,
+    "bootstrap_samples": 10000
+  },
+  "complete_case": {
+    "summary": {
+      "baseline": {
+        "n": 50,
+        "mean": 0.343,
+        "std": 0.395,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "adhd_prompted": {
+        "n": 50,
+        "mean": 0.546,
+        "std": 0.3508,
+        "median": 0.625,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "cognischedule": {
+        "n": 50,
+        "mean": 0.754,
+        "std": 0.2612,
+        "median": 0.8,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "pairwise": {
+      "baseline_vs_adhd_prompted": {
+        "n_paired": 50,
+        "statistic": 111.0,
+        "p_value": 0.000283,
+        "significant_005": true,
+        "mean_diff": 0.203,
+        "cohens_d_paired": 0.5596,
+        "bootstrap_ci95_mean_diff": [
+          0.102,
+          0.303
+        ]
+      },
+      "baseline_vs_cognischedule": {
+        "n_paired": 50,
+        "statistic": 7.5,
+        "p_value": 0.0,
+        "significant_005": true,
+        "mean_diff": 0.411,
+        "cohens_d_paired": 1.1438,
+        "bootstrap_ci95_mean_diff": [
+          0.314,
+          0.509
+        ]
+      },
+      "adhd_prompted_vs_cognischedule": {
+        "n_paired": 50,
+        "statistic": 48.5,
+        "p_value": 5e-06,
+        "significant_005": true,
+        "mean_diff": 0.208,
+        "cohens_d_paired": 0.7453,
+        "bootstrap_ci95_mean_diff": [
+          0.134,
+          0.287
+        ]
+      }
+    }
+  },
+  "itt_failures_zero": {
+    "summary": {
+      "baseline": {
+        "n": 50,
+        "mean": 0.343,
+        "std": 0.395,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "adhd_prompted": {
+        "n": 50,
+        "mean": 0.546,
+        "std": 0.3508,
+        "median": 0.625,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "cognischedule": {
+        "n": 50,
+        "mean": 0.754,
+        "std": 0.2612,
+        "median": 0.8,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "pairwise": {
+      "baseline_vs_adhd_prompted": {
+        "n_paired": 50,
+        "statistic": 111.0,
+        "p_value": 0.000283,
+        "significant_005": true,
+        "mean_diff": 0.203,
+        "cohens_d_paired": 0.5596,
+        "bootstrap_ci95_mean_diff": [
+          0.102,
+          0.303
+        ]
+      },
+      "baseline_vs_cognischedule": {
+        "n_paired": 50,
+        "statistic": 7.5,
+        "p_value": 0.0,
+        "significant_005": true,
+        "mean_diff": 0.411,
+        "cohens_d_paired": 1.1438,
+        "bootstrap_ci95_mean_diff": [
+          0.314,
+          0.509
+        ]
+      },
+      "adhd_prompted_vs_cognischedule": {
+        "n_paired": 50,
+        "statistic": 48.5,
+        "p_value": 5e-06,
+        "significant_005": true,
+        "mean_diff": 0.208,
+        "cohens_d_paired": 0.7453,
+        "bootstrap_ci95_mean_diff": [
+          0.134,
+          0.287
+        ]
+      }
+    }
+  },
+  "reliability": {
+    "success_rates": {
+      "baseline": "50/50",
+      "adhd_prompted": "50/50",
+      "cognischedule": "50/50"
+    },
+    "error_codes": {
+      "baseline": {},
+      "adhd_prompted": {},
+      "cognischedule": {}
+    },
+    "valid_block_rate": {
+      "baseline": 0.9995,
+      "adhd_prompted": 1.0,
+      "cognischedule": 1.0
+    }
+  }
+}

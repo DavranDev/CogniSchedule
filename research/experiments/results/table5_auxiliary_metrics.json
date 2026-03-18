@@ -1,0 +1,149 @@
+{
+  "metrics": {
+    "transition_coherence": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.3781,
+          "std": 0.3087,
+          "median": 0.3333
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.376,
+          "std": 0.3136,
+          "median": 0.3166
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.6408,
+          "std": 0.3528,
+          "median": 0.6125
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "mean_diff": -0.0021,
+          "bootstrap_ci95_mean_diff": [
+            -0.0887,
+            0.0824
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "mean_diff": 0.2626,
+          "bootstrap_ci95_mean_diff": [
+            0.1547,
+            0.3707
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "mean_diff": 0.2648,
+          "bootstrap_ci95_mean_diff": [
+            0.1475,
+            0.3822
+          ]
+        }
+      }
+    },
+    "load_balance_score": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.4916,
+          "std": 0.2893,
+          "median": 0.4964
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.6805,
+          "std": 0.2655,
+          "median": 0.7436
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.8602,
+          "std": 0.1936,
+          "median": 0.9171
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "mean_diff": 0.189,
+          "bootstrap_ci95_mean_diff": [
+            0.1029,
+            0.2756
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "mean_diff": 0.3686,
+          "bootstrap_ci95_mean_diff": [
+            0.264,
+            0.4691
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "mean_diff": 0.1797,
+          "bootstrap_ci95_mean_diff": [
+            0.103,
+            0.2595
+          ]
+        }
+      }
+    },
+    "course_continuity": {
+      "summary": {
+        "baseline": {
+          "n": 50,
+          "mean": 0.2201,
+          "std": 0.3022,
+          "median": 0.1056
+        },
+        "adhd_prompted": {
+          "n": 50,
+          "mean": 0.2337,
+          "std": 0.3361,
+          "median": 0.1056
+        },
+        "cognischedule": {
+          "n": 50,
+          "mean": 0.251,
+          "std": 0.3452,
+          "median": 0.0333
+        }
+      },
+      "pairwise": {
+        "baseline_vs_adhd_prompted": {
+          "n_paired": 50,
+          "mean_diff": 0.0136,
+          "bootstrap_ci95_mean_diff": [
+            -0.035,
+            0.0621
+          ]
+        },
+        "baseline_vs_cognischedule": {
+          "n_paired": 50,
+          "mean_diff": 0.0309,
+          "bootstrap_ci95_mean_diff": [
+            -0.0459,
+            0.1037
+          ]
+        },
+        "adhd_prompted_vs_cognischedule": {
+          "n_paired": 50,
+          "mean_diff": 0.0173,
+          "bootstrap_ci95_mean_diff": [
+            -0.0477,
+            0.0743
+          ]
+        }
+      }
+    }
+  },
+  "rows": 150
+}

@@ -1,0 +1,1891 @@
+{
+  "summary": {
+    "n": 50,
+    "components": {
+      "timing_alignment": {
+        "mean_delta_p80_full_minus_ablated": 0.1006,
+        "mean_delta_expected_full_minus_ablated": 0.0451,
+        "bootstrap_ci95_delta_p80": [
+          0.0785,
+          0.1227
+        ]
+      },
+      "session_fit": {
+        "mean_delta_p80_full_minus_ablated": 0.1509,
+        "mean_delta_expected_full_minus_ablated": 0.0654,
+        "bootstrap_ci95_delta_p80": [
+          0.1317,
+          0.1716
+        ]
+      },
+      "day_organization": {
+        "mean_delta_p80_full_minus_ablated": -0.0018,
+        "mean_delta_expected_full_minus_ablated": -0.0005,
+        "bootstrap_ci95_delta_p80": [
+          -0.0046,
+          0.0
+        ]
+      },
+      "profile_friction": {
+        "mean_delta_p80_full_minus_ablated": -0.0151,
+        "mean_delta_expected_full_minus_ablated": -0.0076,
+        "bootstrap_ci95_delta_p80": [
+          -0.0225,
+          -0.0089
+        ]
+      }
+    }
+  },
+  "rows": [
+    {
+      "scenario_id": "P1_inattentive_nightowl__back_to_back_classes",
+      "full_p80": 0.4548,
+      "full_expected": 0.8224,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2958,
+          "expected": 0.7424,
+          "delta_p80_full_minus_ablated": 0.159,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.3262,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.1286,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.4548,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4548,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__conflicting_priorities",
+      "full_p80": 0.387,
+      "full_expected": 0.76,
+      "full_components": {
+        "timing_alignment": -0.01,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4156,
+          "expected": 0.77,
+          "delta_p80_full_minus_ablated": -0.0286,
+          "delta_expected_full_minus_ablated": -0.01
+        },
+        "session_fit": {
+          "p80": 0.2,
+          "expected": 0.67,
+          "delta_p80_full_minus_ablated": 0.187,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.387,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.387,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__exam_crunch",
+      "full_p80": 0.555,
+      "full_expected": 0.7604,
+      "full_components": {
+        "timing_alignment": 0.024,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": -0.006
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4868,
+          "expected": 0.7364,
+          "delta_p80_full_minus_ablated": 0.0682,
+          "delta_expected_full_minus_ablated": 0.024
+        },
+        "session_fit": {
+          "p80": 0.382,
+          "expected": 0.698,
+          "delta_p80_full_minus_ablated": 0.173,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.555,
+          "expected": 0.7604,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.5722,
+          "expected": 0.7664,
+          "delta_p80_full_minus_ablated": -0.0172,
+          "delta_expected_full_minus_ablated": -0.006
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__fragmented_schedule",
+      "full_p80": 0.696,
+      "full_expected": 0.8124,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": -0.01
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4958,
+          "expected": 0.7324,
+          "delta_p80_full_minus_ablated": 0.2002,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.5394,
+          "expected": 0.75,
+          "delta_p80_full_minus_ablated": 0.1566,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.696,
+          "expected": 0.8124,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.7214,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": -0.0254,
+          "delta_expected_full_minus_ablated": -0.01
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__group_project_deadline",
+      "full_p80": 0.539,
+      "full_expected": 0.7064,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": -0.06
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.3692,
+          "expected": 0.6264,
+          "delta_p80_full_minus_ablated": 0.1698,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.4056,
+          "expected": 0.644,
+          "delta_p80_full_minus_ablated": 0.1334,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.539,
+          "expected": 0.7064,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6618,
+          "expected": 0.7639,
+          "delta_p80_full_minus_ablated": -0.1228,
+          "delta_expected_full_minus_ablated": -0.0575
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__heavy_week",
+      "full_p80": 0.558,
+      "full_expected": 0.8224,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4032,
+          "expected": 0.7424,
+          "delta_p80_full_minus_ablated": 0.1548,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.4344,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.1236,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.558,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.558,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__light_week",
+      "full_p80": 0.4548,
+      "full_expected": 0.8224,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2958,
+          "expected": 0.7424,
+          "delta_p80_full_minus_ablated": 0.159,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.3262,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.1286,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.4548,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4548,
+          "expected": 0.8224,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__midterm_week",
+      "full_p80": 0.617,
+      "full_expected": 0.7924,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": -0.03
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.493,
+          "expected": 0.7124,
+          "delta_p80_full_minus_ablated": 0.124,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.5192,
+          "expected": 0.73,
+          "delta_p80_full_minus_ablated": 0.0978,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.617,
+          "expected": 0.7924,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6496,
+          "expected": 0.8162,
+          "delta_p80_full_minus_ablated": -0.0326,
+          "delta_expected_full_minus_ablated": -0.0238
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__post_deadline_recovery",
+      "full_p80": 0.4896,
+      "full_expected": 0.6824,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0624,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.3358,
+          "expected": 0.6024,
+          "delta_p80_full_minus_ablated": 0.1538,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.3718,
+          "expected": 0.62,
+          "delta_p80_full_minus_ablated": 0.1178,
+          "delta_expected_full_minus_ablated": 0.0624
+        },
+        "day_organization": {
+          "p80": 0.4896,
+          "expected": 0.6824,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4896,
+          "expected": 0.6824,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P1_inattentive_nightowl__procrastination_recovery",
+      "full_p80": 0.504,
+      "full_expected": 0.6879,
+      "full_components": {
+        "timing_alignment": 0.048,
+        "session_fit": 0.0679,
+        "day_organization": 0.0,
+        "profile_friction": -0.024
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.402,
+          "expected": 0.6399,
+          "delta_p80_full_minus_ablated": 0.102,
+          "delta_expected_full_minus_ablated": 0.048
+        },
+        "session_fit": {
+          "p80": 0.3672,
+          "expected": 0.62,
+          "delta_p80_full_minus_ablated": 0.1368,
+          "delta_expected_full_minus_ablated": 0.0679
+        },
+        "day_organization": {
+          "p80": 0.504,
+          "expected": 0.6879,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.5548,
+          "expected": 0.7119,
+          "delta_p80_full_minus_ablated": -0.0508,
+          "delta_expected_full_minus_ablated": -0.024
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__back_to_back_classes",
+      "full_p80": 0.886,
+      "full_expected": 0.8774,
+      "full_components": {
+        "timing_alignment": 0.0,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.886,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "session_fit": {
+          "p80": 0.8254,
+          "expected": 0.82,
+          "delta_p80_full_minus_ablated": 0.0606,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.886,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.886,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__conflicting_priorities",
+      "full_p80": 0.3896,
+      "full_expected": 0.7818,
+      "full_components": {
+        "timing_alignment": 0.0444,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2732,
+          "expected": 0.7374,
+          "delta_p80_full_minus_ablated": 0.1164,
+          "delta_expected_full_minus_ablated": 0.0444
+        },
+        "session_fit": {
+          "p80": 0.2398,
+          "expected": 0.7244,
+          "delta_p80_full_minus_ablated": 0.1498,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.3896,
+          "expected": 0.7818,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.3896,
+          "expected": 0.7818,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__exam_crunch",
+      "full_p80": 0.8886,
+      "full_expected": 0.9339,
+      "full_components": {
+        "timing_alignment": 0.0622,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.7042,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.1844,
+          "delta_expected_full_minus_ablated": 0.0565
+        },
+        "session_fit": {
+          "p80": 0.718,
+          "expected": 0.8822,
+          "delta_p80_full_minus_ablated": 0.1706,
+          "delta_expected_full_minus_ablated": 0.0517
+        },
+        "day_organization": {
+          "p80": 0.8886,
+          "expected": 0.9339,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.8886,
+          "expected": 0.9339,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__fragmented_schedule",
+      "full_p80": 0.886,
+      "full_expected": 0.8774,
+      "full_components": {
+        "timing_alignment": 0.0,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.886,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "session_fit": {
+          "p80": 0.8254,
+          "expected": 0.82,
+          "delta_p80_full_minus_ablated": 0.0606,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.886,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.886,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__group_project_deadline",
+      "full_p80": 0.6338,
+      "full_expected": 0.7844,
+      "full_components": {
+        "timing_alignment": 0.032,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.01
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.5372,
+          "expected": 0.7554,
+          "delta_p80_full_minus_ablated": 0.0966,
+          "delta_expected_full_minus_ablated": 0.029
+        },
+        "session_fit": {
+          "p80": 0.452,
+          "expected": 0.73,
+          "delta_p80_full_minus_ablated": 0.1818,
+          "delta_expected_full_minus_ablated": 0.0544
+        },
+        "day_organization": {
+          "p80": 0.6338,
+          "expected": 0.7844,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6642,
+          "expected": 0.7944,
+          "delta_p80_full_minus_ablated": -0.0304,
+          "delta_expected_full_minus_ablated": -0.01
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__heavy_week",
+      "full_p80": 0.9828,
+      "full_expected": 0.9427,
+      "full_components": {
+        "timing_alignment": 0.072,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.8972,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0856,
+          "delta_expected_full_minus_ablated": 0.0653
+        },
+        "session_fit": {
+          "p80": 0.923,
+          "expected": 0.892,
+          "delta_p80_full_minus_ablated": 0.0598,
+          "delta_expected_full_minus_ablated": 0.0507
+        },
+        "day_organization": {
+          "p80": 0.9828,
+          "expected": 0.9427,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.9828,
+          "expected": 0.9427,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__light_week",
+      "full_p80": 0.9698,
+      "full_expected": 0.95,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.8506,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.1192,
+          "delta_expected_full_minus_ablated": 0.0726
+        },
+        "session_fit": {
+          "p80": 0.8932,
+          "expected": 0.9,
+          "delta_p80_full_minus_ablated": 0.0766,
+          "delta_expected_full_minus_ablated": 0.05
+        },
+        "day_organization": {
+          "p80": 0.9698,
+          "expected": 0.95,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.9698,
+          "expected": 0.95,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__midterm_week",
+      "full_p80": 0.8916,
+      "full_expected": 0.8774,
+      "full_components": {
+        "timing_alignment": 0.0,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.8916,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "session_fit": {
+          "p80": 0.7856,
+          "expected": 0.82,
+          "delta_p80_full_minus_ablated": 0.106,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.8916,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.8916,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__post_deadline_recovery",
+      "full_p80": 0.629,
+      "full_expected": 0.8588,
+      "full_components": {
+        "timing_alignment": 0.0444,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.482,
+          "expected": 0.8151,
+          "delta_p80_full_minus_ablated": 0.147,
+          "delta_expected_full_minus_ablated": 0.0437
+        },
+        "session_fit": {
+          "p80": 0.4446,
+          "expected": 0.8022,
+          "delta_p80_full_minus_ablated": 0.1844,
+          "delta_expected_full_minus_ablated": 0.0566
+        },
+        "day_organization": {
+          "p80": 0.629,
+          "expected": 0.8588,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.629,
+          "expected": 0.8588,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P2_hyperactive_morning__procrastination_recovery",
+      "full_p80": 0.4192,
+      "full_expected": 0.6524,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.025
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.3186,
+          "expected": 0.5724,
+          "delta_p80_full_minus_ablated": 0.1006,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.3438,
+          "expected": 0.595,
+          "delta_p80_full_minus_ablated": 0.0754,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.4192,
+          "expected": 0.6524,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.451,
+          "expected": 0.6774,
+          "delta_p80_full_minus_ablated": -0.0318,
+          "delta_expected_full_minus_ablated": -0.025
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__back_to_back_classes",
+      "full_p80": 0.7686,
+      "full_expected": 0.8288,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.5232,
+          "expected": 0.7488,
+          "delta_p80_full_minus_ablated": 0.2454,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.5612,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.2074,
+          "delta_expected_full_minus_ablated": 0.0688
+        },
+        "day_organization": {
+          "p80": 0.7686,
+          "expected": 0.8288,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.7686,
+          "expected": 0.8288,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__conflicting_priorities",
+      "full_p80": 0.7268,
+      "full_expected": 0.7908,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": -0.01
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.5472,
+          "expected": 0.7108,
+          "delta_p80_full_minus_ablated": 0.1796,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.571,
+          "expected": 0.722,
+          "delta_p80_full_minus_ablated": 0.1558,
+          "delta_expected_full_minus_ablated": 0.0688
+        },
+        "day_organization": {
+          "p80": 0.7268,
+          "expected": 0.7908,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.7476,
+          "expected": 0.8008,
+          "delta_p80_full_minus_ablated": -0.0208,
+          "delta_expected_full_minus_ablated": -0.01
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__exam_crunch",
+      "full_p80": 0.4678,
+      "full_expected": 0.7664,
+      "full_components": {
+        "timing_alignment": 0.01,
+        "session_fit": 0.0677,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4322,
+          "expected": 0.7564,
+          "delta_p80_full_minus_ablated": 0.0356,
+          "delta_expected_full_minus_ablated": 0.01
+        },
+        "session_fit": {
+          "p80": 0.2368,
+          "expected": 0.6987,
+          "delta_p80_full_minus_ablated": 0.231,
+          "delta_expected_full_minus_ablated": 0.0677
+        },
+        "day_organization": {
+          "p80": 0.4678,
+          "expected": 0.7664,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4678,
+          "expected": 0.7664,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__fragmented_schedule",
+      "full_p80": 0.8792,
+      "full_expected": 0.8749,
+      "full_components": {
+        "timing_alignment": 0.04,
+        "session_fit": 0.0874,
+        "day_organization": 0.0,
+        "profile_friction": -0.0063
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.8168,
+          "expected": 0.8574,
+          "delta_p80_full_minus_ablated": 0.0624,
+          "delta_expected_full_minus_ablated": 0.0175
+        },
+        "session_fit": {
+          "p80": 0.625,
+          "expected": 0.81,
+          "delta_p80_full_minus_ablated": 0.2542,
+          "delta_expected_full_minus_ablated": 0.0649
+        },
+        "day_organization": {
+          "p80": 0.8792,
+          "expected": 0.8749,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.8924,
+          "expected": 0.8811,
+          "delta_p80_full_minus_ablated": -0.0132,
+          "delta_expected_full_minus_ablated": -0.0062
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__group_project_deadline",
+      "full_p80": 0.1984,
+      "full_expected": 0.7022,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": -0.0333
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.0868,
+          "expected": 0.6222,
+          "delta_p80_full_minus_ablated": 0.1116,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.0958,
+          "expected": 0.6333,
+          "delta_p80_full_minus_ablated": 0.1026,
+          "delta_expected_full_minus_ablated": 0.0689
+        },
+        "day_organization": {
+          "p80": 0.1984,
+          "expected": 0.7022,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.2636,
+          "expected": 0.7355,
+          "delta_p80_full_minus_ablated": -0.0652,
+          "delta_expected_full_minus_ablated": -0.0333
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__heavy_week",
+      "full_p80": 0.6274,
+      "full_expected": 0.7808,
+      "full_components": {
+        "timing_alignment": 0.032,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.5232,
+          "expected": 0.7488,
+          "delta_p80_full_minus_ablated": 0.1042,
+          "delta_expected_full_minus_ablated": 0.032
+        },
+        "session_fit": {
+          "p80": 0.41,
+          "expected": 0.712,
+          "delta_p80_full_minus_ablated": 0.2174,
+          "delta_expected_full_minus_ablated": 0.0688
+        },
+        "day_organization": {
+          "p80": 0.6274,
+          "expected": 0.7808,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6274,
+          "expected": 0.7808,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__light_week",
+      "full_p80": 0.8498,
+      "full_expected": 0.873,
+      "full_components": {
+        "timing_alignment": -0.0073,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.8872,
+          "expected": 0.8888,
+          "delta_p80_full_minus_ablated": -0.0374,
+          "delta_expected_full_minus_ablated": -0.0158
+        },
+        "session_fit": {
+          "p80": 0.6616,
+          "expected": 0.8127,
+          "delta_p80_full_minus_ablated": 0.1882,
+          "delta_expected_full_minus_ablated": 0.0603
+        },
+        "day_organization": {
+          "p80": 0.8498,
+          "expected": 0.873,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.8498,
+          "expected": 0.873,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__midterm_week",
+      "full_p80": 0.561,
+      "full_expected": 0.8417,
+      "full_components": {
+        "timing_alignment": 0.0444,
+        "session_fit": 0.061,
+        "day_organization": 0.0,
+        "profile_friction": -0.0111
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4466,
+          "expected": 0.8077,
+          "delta_p80_full_minus_ablated": 0.1144,
+          "delta_expected_full_minus_ablated": 0.034
+        },
+        "session_fit": {
+          "p80": 0.3906,
+          "expected": 0.7911,
+          "delta_p80_full_minus_ablated": 0.1704,
+          "delta_expected_full_minus_ablated": 0.0506
+        },
+        "day_organization": {
+          "p80": 0.561,
+          "expected": 0.8417,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6036,
+          "expected": 0.8528,
+          "delta_p80_full_minus_ablated": -0.0426,
+          "delta_expected_full_minus_ablated": -0.0111
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__post_deadline_recovery",
+      "full_p80": 0.6614,
+      "full_expected": 0.8088,
+      "full_components": {
+        "timing_alignment": -0.08,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.7954,
+          "expected": 0.8888,
+          "delta_p80_full_minus_ablated": -0.134,
+          "delta_expected_full_minus_ablated": -0.08
+        },
+        "session_fit": {
+          "p80": 0.55,
+          "expected": 0.74,
+          "delta_p80_full_minus_ablated": 0.1114,
+          "delta_expected_full_minus_ablated": 0.0688
+        },
+        "day_organization": {
+          "p80": 0.6614,
+          "expected": 0.8088,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6614,
+          "expected": 0.8088,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P3_combined_anxious__procrastination_recovery",
+      "full_p80": 0.514,
+      "full_expected": 0.7238,
+      "full_components": {
+        "timing_alignment": 0.0,
+        "session_fit": 0.0688,
+        "day_organization": 0.0,
+        "profile_friction": -0.025
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.495,
+          "expected": 0.7238,
+          "delta_p80_full_minus_ablated": 0.019,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "session_fit": {
+          "p80": 0.4192,
+          "expected": 0.655,
+          "delta_p80_full_minus_ablated": 0.0948,
+          "delta_expected_full_minus_ablated": 0.0688
+        },
+        "day_organization": {
+          "p80": 0.514,
+          "expected": 0.7238,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.5588,
+          "expected": 0.7488,
+          "delta_p80_full_minus_ablated": -0.0448,
+          "delta_expected_full_minus_ablated": -0.025
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__back_to_back_classes",
+      "full_p80": 0.7244,
+      "full_expected": 0.8451,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0851,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.4428,
+          "expected": 0.7651,
+          "delta_p80_full_minus_ablated": 0.2816,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.425,
+          "expected": 0.76,
+          "delta_p80_full_minus_ablated": 0.2994,
+          "delta_expected_full_minus_ablated": 0.0851
+        },
+        "day_organization": {
+          "p80": 0.7244,
+          "expected": 0.8451,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.7244,
+          "expected": 0.8451,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__conflicting_priorities",
+      "full_p80": 0.665,
+      "full_expected": 0.8076,
+      "full_components": {
+        "timing_alignment": 0.0512,
+        "session_fit": 0.09,
+        "day_organization": -0.0072,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.432,
+          "expected": 0.7628,
+          "delta_p80_full_minus_ablated": 0.233,
+          "delta_expected_full_minus_ablated": 0.0448
+        },
+        "session_fit": {
+          "p80": 0.2714,
+          "expected": 0.724,
+          "delta_p80_full_minus_ablated": 0.3936,
+          "delta_expected_full_minus_ablated": 0.0836
+        },
+        "day_organization": {
+          "p80": 0.7004,
+          "expected": 0.8148,
+          "delta_p80_full_minus_ablated": -0.0354,
+          "delta_expected_full_minus_ablated": -0.0072
+        },
+        "profile_friction": {
+          "p80": 0.665,
+          "expected": 0.8076,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__exam_crunch",
+      "full_p80": 0.1622,
+      "full_expected": 0.6811,
+      "full_components": {
+        "timing_alignment": 0.0356,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.1144,
+          "expected": 0.6456,
+          "delta_p80_full_minus_ablated": 0.0478,
+          "delta_expected_full_minus_ablated": 0.0355
+        },
+        "session_fit": {
+          "p80": 0.0648,
+          "expected": 0.5911,
+          "delta_p80_full_minus_ablated": 0.0974,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.1622,
+          "expected": 0.6811,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.1622,
+          "expected": 0.6811,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__fragmented_schedule",
+      "full_p80": 0.5562,
+      "full_expected": 0.7567,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.3726,
+          "expected": 0.6767,
+          "delta_p80_full_minus_ablated": 0.1836,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.3552,
+          "expected": 0.6667,
+          "delta_p80_full_minus_ablated": 0.201,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.5562,
+          "expected": 0.7567,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.5562,
+          "expected": 0.7567,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__group_project_deadline",
+      "full_p80": 0.417,
+      "full_expected": 0.7386,
+      "full_components": {
+        "timing_alignment": 0.0686,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2686,
+          "expected": 0.67,
+          "delta_p80_full_minus_ablated": 0.1484,
+          "delta_expected_full_minus_ablated": 0.0686
+        },
+        "session_fit": {
+          "p80": 0.2286,
+          "expected": 0.6486,
+          "delta_p80_full_minus_ablated": 0.1884,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.417,
+          "expected": 0.7386,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.417,
+          "expected": 0.7386,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__heavy_week",
+      "full_p80": 0.4188,
+      "full_expected": 0.714,
+      "full_components": {
+        "timing_alignment": 0.056,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2654,
+          "expected": 0.658,
+          "delta_p80_full_minus_ablated": 0.1534,
+          "delta_expected_full_minus_ablated": 0.056
+        },
+        "session_fit": {
+          "p80": 0.1962,
+          "expected": 0.624,
+          "delta_p80_full_minus_ablated": 0.2226,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.4188,
+          "expected": 0.714,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4188,
+          "expected": 0.714,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__light_week",
+      "full_p80": 0.9862,
+      "full_expected": 0.946,
+      "full_components": {
+        "timing_alignment": 0.072,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.9496,
+          "expected": 0.91,
+          "delta_p80_full_minus_ablated": 0.0366,
+          "delta_expected_full_minus_ablated": 0.036
+        },
+        "session_fit": {
+          "p80": 0.9234,
+          "expected": 0.892,
+          "delta_p80_full_minus_ablated": 0.0628,
+          "delta_expected_full_minus_ablated": 0.054
+        },
+        "day_organization": {
+          "p80": 0.9862,
+          "expected": 0.946,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.9862,
+          "expected": 0.946,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__midterm_week",
+      "full_p80": 0.302,
+      "full_expected": 0.6871,
+      "full_components": {
+        "timing_alignment": 0.0571,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.203,
+          "expected": 0.63,
+          "delta_p80_full_minus_ablated": 0.099,
+          "delta_expected_full_minus_ablated": 0.0571
+        },
+        "session_fit": {
+          "p80": 0.156,
+          "expected": 0.5971,
+          "delta_p80_full_minus_ablated": 0.146,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.302,
+          "expected": 0.6871,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.302,
+          "expected": 0.6871,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__post_deadline_recovery",
+      "full_p80": 0.6378,
+      "full_expected": 0.8331,
+      "full_components": {
+        "timing_alignment": 0.0492,
+        "session_fit": 0.0854,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.463,
+          "expected": 0.787,
+          "delta_p80_full_minus_ablated": 0.1748,
+          "delta_expected_full_minus_ablated": 0.0461
+        },
+        "session_fit": {
+          "p80": 0.3382,
+          "expected": 0.7508,
+          "delta_p80_full_minus_ablated": 0.2996,
+          "delta_expected_full_minus_ablated": 0.0823
+        },
+        "day_organization": {
+          "p80": 0.6378,
+          "expected": 0.8331,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.6378,
+          "expected": 0.8331,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P4_inattentive_medicated__procrastination_recovery",
+      "full_p80": 0.3874,
+      "full_expected": 0.6833,
+      "full_components": {
+        "timing_alignment": 0.0533,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2842,
+          "expected": 0.63,
+          "delta_p80_full_minus_ablated": 0.1032,
+          "delta_expected_full_minus_ablated": 0.0533
+        },
+        "session_fit": {
+          "p80": 0.2204,
+          "expected": 0.5933,
+          "delta_p80_full_minus_ablated": 0.167,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.3874,
+          "expected": 0.6833,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.3874,
+          "expected": 0.6833,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__back_to_back_classes",
+      "full_p80": 0.3084,
+      "full_expected": 0.6888,
+      "full_components": {
+        "timing_alignment": 0.0457,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.0143
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2194,
+          "expected": 0.6431,
+          "delta_p80_full_minus_ablated": 0.089,
+          "delta_expected_full_minus_ablated": 0.0457
+        },
+        "session_fit": {
+          "p80": 0.2012,
+          "expected": 0.6314,
+          "delta_p80_full_minus_ablated": 0.1072,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.3084,
+          "expected": 0.6888,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.3352,
+          "expected": 0.7031,
+          "delta_p80_full_minus_ablated": -0.0268,
+          "delta_expected_full_minus_ablated": -0.0143
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__conflicting_priorities",
+      "full_p80": 0.3794,
+      "full_expected": 0.7699,
+      "full_components": {
+        "timing_alignment": 0.0,
+        "session_fit": 0.0151,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.3856,
+          "expected": 0.7704,
+          "delta_p80_full_minus_ablated": -0.0062,
+          "delta_expected_full_minus_ablated": -0.0005
+        },
+        "session_fit": {
+          "p80": 0.3436,
+          "expected": 0.7554,
+          "delta_p80_full_minus_ablated": 0.0358,
+          "delta_expected_full_minus_ablated": 0.0145
+        },
+        "day_organization": {
+          "p80": 0.3794,
+          "expected": 0.7699,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.3794,
+          "expected": 0.7699,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__exam_crunch",
+      "full_p80": 0.1614,
+      "full_expected": 0.6774,
+      "full_components": {
+        "timing_alignment": 0.0711,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.0222
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.0742,
+          "expected": 0.6063,
+          "delta_p80_full_minus_ablated": 0.0872,
+          "delta_expected_full_minus_ablated": 0.0711
+        },
+        "session_fit": {
+          "p80": 0.0886,
+          "expected": 0.62,
+          "delta_p80_full_minus_ablated": 0.0728,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.1614,
+          "expected": 0.6774,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.195,
+          "expected": 0.6996,
+          "delta_p80_full_minus_ablated": -0.0336,
+          "delta_expected_full_minus_ablated": -0.0222
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__fragmented_schedule",
+      "full_p80": 0.425,
+      "full_expected": 0.6524,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.025
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2862,
+          "expected": 0.5724,
+          "delta_p80_full_minus_ablated": 0.1388,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.3248,
+          "expected": 0.595,
+          "delta_p80_full_minus_ablated": 0.1002,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.425,
+          "expected": 0.6524,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4764,
+          "expected": 0.6774,
+          "delta_p80_full_minus_ablated": -0.0514,
+          "delta_expected_full_minus_ablated": -0.025
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__group_project_deadline",
+      "full_p80": 0.3732,
+      "full_expected": 0.6765,
+      "full_components": {
+        "timing_alignment": 0.0533,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.0208
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.2588,
+          "expected": 0.6232,
+          "delta_p80_full_minus_ablated": 0.1144,
+          "delta_expected_full_minus_ablated": 0.0533
+        },
+        "session_fit": {
+          "p80": 0.262,
+          "expected": 0.6192,
+          "delta_p80_full_minus_ablated": 0.1112,
+          "delta_expected_full_minus_ablated": 0.0573
+        },
+        "day_organization": {
+          "p80": 0.3732,
+          "expected": 0.6765,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.4196,
+          "expected": 0.6974,
+          "delta_p80_full_minus_ablated": -0.0464,
+          "delta_expected_full_minus_ablated": -0.0209
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__heavy_week",
+      "full_p80": 0.8532,
+      "full_expected": 0.8597,
+      "full_components": {
+        "timing_alignment": 0.0031,
+        "session_fit": 0.0574,
+        "day_organization": -0.0185,
+        "profile_friction": -0.0023
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.8448,
+          "expected": 0.8566,
+          "delta_p80_full_minus_ablated": 0.0084,
+          "delta_expected_full_minus_ablated": 0.0031
+        },
+        "session_fit": {
+          "p80": 0.5936,
+          "expected": 0.8023,
+          "delta_p80_full_minus_ablated": 0.2596,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.9068,
+          "expected": 0.8764,
+          "delta_p80_full_minus_ablated": -0.0536,
+          "delta_expected_full_minus_ablated": -0.0167
+        },
+        "profile_friction": {
+          "p80": 0.862,
+          "expected": 0.862,
+          "delta_p80_full_minus_ablated": -0.0088,
+          "delta_expected_full_minus_ablated": -0.0023
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__light_week",
+      "full_p80": 0.778,
+      "full_expected": 0.8467,
+      "full_components": {
+        "timing_alignment": 0.0533,
+        "session_fit": 0.09,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.644,
+          "expected": 0.7933,
+          "delta_p80_full_minus_ablated": 0.134,
+          "delta_expected_full_minus_ablated": 0.0534
+        },
+        "session_fit": {
+          "p80": 0.5548,
+          "expected": 0.7567,
+          "delta_p80_full_minus_ablated": 0.2232,
+          "delta_expected_full_minus_ablated": 0.09
+        },
+        "day_organization": {
+          "p80": 0.778,
+          "expected": 0.8467,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.778,
+          "expected": 0.8467,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__midterm_week",
+      "full_p80": 0.273,
+      "full_expected": 0.6524,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": -0.025
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.179,
+          "expected": 0.5724,
+          "delta_p80_full_minus_ablated": 0.094,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.2002,
+          "expected": 0.595,
+          "delta_p80_full_minus_ablated": 0.0728,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.273,
+          "expected": 0.6524,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.3046,
+          "expected": 0.6774,
+          "delta_p80_full_minus_ablated": -0.0316,
+          "delta_expected_full_minus_ablated": -0.025
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__post_deadline_recovery",
+      "full_p80": 0.5352,
+      "full_expected": 0.8574,
+      "full_components": {
+        "timing_alignment": -0.02,
+        "session_fit": 0.0574,
+        "day_organization": 0.0,
+        "profile_friction": 0.0
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.5936,
+          "expected": 0.8774,
+          "delta_p80_full_minus_ablated": -0.0584,
+          "delta_expected_full_minus_ablated": -0.02
+        },
+        "session_fit": {
+          "p80": 0.4034,
+          "expected": 0.8,
+          "delta_p80_full_minus_ablated": 0.1318,
+          "delta_expected_full_minus_ablated": 0.0574
+        },
+        "day_organization": {
+          "p80": 0.5352,
+          "expected": 0.8574,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.5352,
+          "expected": 0.8574,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        }
+      }
+    },
+    {
+      "scenario_id": "P5_combined_time_blind__procrastination_recovery",
+      "full_p80": 0.3954,
+      "full_expected": 0.6888,
+      "full_components": {
+        "timing_alignment": 0.08,
+        "session_fit": 0.0529,
+        "day_organization": 0.0,
+        "profile_friction": -0.0308
+      },
+      "ablations": {
+        "timing_alignment": {
+          "p80": 0.242,
+          "expected": 0.6088,
+          "delta_p80_full_minus_ablated": 0.1534,
+          "delta_expected_full_minus_ablated": 0.08
+        },
+        "session_fit": {
+          "p80": 0.2866,
+          "expected": 0.6358,
+          "delta_p80_full_minus_ablated": 0.1088,
+          "delta_expected_full_minus_ablated": 0.053
+        },
+        "day_organization": {
+          "p80": 0.3954,
+          "expected": 0.6888,
+          "delta_p80_full_minus_ablated": 0.0,
+          "delta_expected_full_minus_ablated": 0.0
+        },
+        "profile_friction": {
+          "p80": 0.456,
+          "expected": 0.7196,
+          "delta_p80_full_minus_ablated": -0.0606,
+          "delta_expected_full_minus_ablated": -0.0308
+        }
+      }
+    }
+  ]
+}

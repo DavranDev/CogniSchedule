@@ -1,0 +1,44 @@
+# App (not part of research contribution)
+calendar-app/
+
+# Internal planning & config
+.claude/
+natural_plan_experiments/
+research_paper/
+test_figures/
+CogniSchedule_EMNLP_Plan.*
+RESEARCH-PLAN.md
+run.txt
+package-lock.json
+render_tables.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.pdf
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.toc
+paper/*.nav
+paper/*.snm
+paper/*.vrb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,72 @@
+{
+  "best_improvement": {
+    "label": "largest_cfs_gain",
+    "scenario_id": "P1_inattentive_nightowl__group_project_deadline",
+    "conditions": {
+      "baseline": {
+        "cfs_score": 0.0,
+        "sap_p80": 0.0192,
+        "rule_counts": {
+          "consecutive_high": 1,
+          "trough_high": 1,
+          "missing_buffer": 11,
+          "monolithic": 14
+        },
+        "actionable_blocks": 21,
+        "high_load_actionable_blocks": 8
+      },
+      "cognischedule": {
+        "cfs_score": 1.0,
+        "sap_p80": 0.539,
+        "rule_counts": {
+          "consecutive_high": 0,
+          "trough_high": 0,
+          "missing_buffer": 0,
+          "monolithic": 0
+        },
+        "actionable_blocks": 5,
+        "high_load_actionable_blocks": 3
+      }
+    }
+  },
+  "hard_failure_case": {
+    "label": "largest_negative_sap_delta",
+    "scenario_id": "P4_inattentive_medicated__fragmented_schedule",
+    "conditions": {
+      "baseline": {
+        "cfs_score": 1.0,
+        "sap_p80": 0.9344,
+        "rule_counts": {
+          "consecutive_high": 0,
+          "trough_high": 0,
+          "missing_buffer": 0,
+          "monolithic": 0
+        },
+        "actionable_blocks": 10,
+        "high_load_actionable_blocks": 0
+      },
+      "cognischedule": {
+        "cfs_score": 1.0,
+        "sap_p80": 0.5562,
+        "rule_counts": {
+          "consecutive_high": 0,
+          "trough_high": 0,
+          "missing_buffer": 0,
+          "monolithic": 0
+        },
+        "actionable_blocks": 6,
+        "high_load_actionable_blocks": 4
+      }
+    }
+  },
+  "selection_basis": {
+    "best": {
+      "cfs_delta": 1.0,
+      "sap_delta": 0.5198
+    },
+    "hardest": {
+      "cfs_delta": 0.0,
+      "sap_delta": -0.3782
+    }
+  }
+}
